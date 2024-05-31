@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        #in1{
+            margin: 10px;
+            width: 25vw;
+            height: 8vh;
+            outline: none;
+            text-align: center;
+            font-family: Arial;
+            font-size: 5vh;
+            font-weight: bolder;
+        }
+        #in2{
+            margin: 10px;
+            width: 25vw;
+            height: 8vh;
+            outline: none;
+            text-align: center;
+            font-family: Arial;
+            font-size: 5vh;
+            font-weight: bolder;
+        }
+        #exp{
+            margin: 10px;
+            width: 5vw;
+            height: 8vh;
+            outline: none;
+            font-family: Arial;
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+        .container{
+            margin: 20px auto;
+            width: 150px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: xx-large;
+            color: blue;
+        }
+        #btn{
+            margin: 10px;
+            width: 25vw;
+            height: 8vh;
+            outline: none;
+            text-align: center;
+            font-family: Arial;
+            font-size: 5vh;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <input type="number" id="in1">
+    <select name="exp" id="exp">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">X</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" id="in2"><button onclick="cal()" id="btn">Calculate</button><br><br>
+    <div class="container" id="container1"></div>
+</body>
+<script>
+    function cal(){
+    var a = document.getElementById("in1").value;
+    var b = document.getElementById("in2").value;
+    var e = document.getElementById("exp").value;
+    if (e == '+'){
+        r = parseInt(a) + parseInt(b);
+    }
+    else if (e == '-'){
+        r = parseInt(a) - parseInt(b);
+    }
+    else if (e == '*'){
+        r = parseInt(a) * parseInt(b);
+    }
+    else{
+        r = parseInt(a) / parseInt(b);
+    }
+    document.getElementById("container1").innerHTML = r;
+    }
+</script>
+</html>

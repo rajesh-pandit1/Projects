@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><style>
+    body{
+        background: linear-gradient(to right, #9c55a8, #4e7fa7);
+    }
+    .main{
+        color: rgb(0, 0, 0);
+    }
+    .job{
+        color: aqua;
+    }
+    legend{
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    h1{
+        color: aquamarine;
+        text-align: center;
+    }
+    h2{
+        color: rgb(251, 255, 191);
+        text-align: center;
+    }
+    .form-text{
+        color: lightyellow;
+        size: 50px;
+    }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body><div class="main"><form>
+    <fieldset><legend><b>Fill up the form</b></legend>
+        <div class="Job"><h1><i>JOB APPLICATION FORM </i></h1></div>
+        <h2>POSITION APPLIED FOR : <input type="text"></h2><br><br>
+        <h2>Applicant's Profile</h2><br><br><br>
+        <div class="form-text">
+            1. Name : <input type="text" placeholder=" enter your name"><br><br>
+            2. Postal Address: <input type="text" placeholder="Enter your postal address"><br><br>
+            3. Permanent Address: <input type="text" placeholder="Enter your Permanent address"><br><br>
+            4. Phone no(Res) : <input type="number" placeholder="Enter your Phone number">            
+                Office : <input type="number" placeholder="Enter your office number"><br><br>
+            5. Email Address : <input type="text" placeholder="Enter your Email address">    Nic N. : <input type="text" placeholder="Enter your NIC No."><br><br>
+            6. Marital Status :<input list="maritals" placeholder="Choose your marital status" name="marital" id="marital">
+            
+            <datalist id="maritals">
+              <option value="Single">
+              <option value="Married">
+              <option value="Divorced">
+              <option value="In-Relationship">
+            </datalist>  No. of dependent <input type="number"><br><br>
+            7. Qualification : <textarea rows="4" cols="25" placeholder="Enter your Qualification......"></textarea><br><br>
+            8. Present Employer : <input type="text" placeholder="Enter Present Employer"> Current Position : <input type="text" placeholder="Enter Current Position"><br><br>
+            9. Exprience in Position being applied for : <input type="number" placeholder="Enter Expriences"> Banking Exprience : <input type="number" placeholder="Enter Your bank expriences"><br><br>
+            10. Total Exprience : <input type="number" placeholder="Enter your Total Exprience"> Notice Period (Duration) : <input type="text" placeholder="Enter your Notice period"><br><br>
+            11. Present Salary : <input type="number" placeholder="Enter your Present Salary"> Expected Salary : <input type="number" placeholder="Enter your Expected Salary"><br><br>
+            12. Willing to serve anywhere in Nepal : <label for="Yes">     Yes</label>
+            <input type="radio" name="Q" id="Yes" value="Yes">
+            <label for="Yes">No</label>
+            <input type="radio" name="Q" id="No" value="No"><br><br>
+            13. Which other Position you intend to apply : 1. <input type="text"> 2. <input type="text"><br><br>
+            14. Have you ever applied in SME Bank? If yes please specify the Position and its results : <textarea rows="4" cols="30" placeholder="Please specifiy here...."></textarea><br><br>
+            <input type="submit" value="submit" id="submit">
+        </div>
+</fieldset></form></div>
+    
+</body>
+</html>

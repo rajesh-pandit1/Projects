@@ -1,0 +1,15 @@
+1.  print(string.endswith("word"))           #checking the last word
+2.  print(string.count("o"))                 #counting the letter "o"
+3.  print(string.capitalize())               #capitalizing the first letter of the story or the words
+4.  print(string.find("Apple"))              #finding the position of word 'Apple' (if not available then output will be -1
+5.  print(string.replace("Rajesh","Naresh"))  #Replacing word "Rajesh" with word "Naresh"
+6.  variable.sort()                          # used for printing in ascending order
+7.  variable.reverse()                       # used for printing in reverse order
+8.  variable.append( any number)             # used for adding any number in last
+9.  variable.insert(Nth term, any nubmer)    # used for adding any number in Nth term
+10. variable.pop(Nth term)                   # used for removing Nth term of the variable
+11. variable.remove(Any number)              # used for removing "Any number" in ther variable
+12. variable.add(5)                          # usesd fro adding 5 in an empty set 
+13. variable.remove(5)                       # used for removing 5 from a set
+14. variable.pop()                           # used form removing random number
+15. 

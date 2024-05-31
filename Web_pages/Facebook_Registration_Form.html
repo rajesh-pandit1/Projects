@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: grey;
+        }
+        .register{
+            height: 800px;
+            width: 510px;
+            background-color: rgb(230, 230, 230);
+            margin: auto;
+            box-shadow: 5px 5px 70px black;
+            border-radius: 10px;
+            transition: 1s;
+        }
+        /* .register:hover{
+            height: 1200px;
+            width: 620px;
+            background-color: aquamarine;
+            margin: auto;
+            box-shadow: 10px 10px 100px black;
+            border-radius: 15px;
+            transition: 1s;
+        } */
+        h1{
+            color: rgb(109, 109, 109);
+            text-align: center;
+            font-family: sans-serif;
+        }
+        p{
+            color: rgb(109, 109, 109);
+            text-align: center;
+            font-family: sans-serif;
+        }
+        .First{
+            text-indent: 13px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 36px;
+            width: 170px;
+            height: 45px;
+            text-align: left;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            outline: none;
+        }
+        .Last{
+            text-indent: 13px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 36px;
+            width: 170px;
+            height: 45px;
+            text-align: left;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            outline: none;
+        }
+        .Email{
+            text-indent: 13px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 0px 36px 36px 36px;
+            width: 414px;
+            height: 45px;
+            text-align: left;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            outline: none;
+        }
+        .Password{
+            text-indent: 13px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 0px 36px 36px 36px;
+            width: 414px;
+            height: 45px;
+            text-align: left;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            outline: none;
+        }
+        .Confirm_password{
+            text-indent: 13px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 0px 36px 36px 36px;
+            width: 414px;
+            height: 45px;
+            text-align: left;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            outline: none;
+        }
+        .Accept{
+            margin: 0px 36px 36px 36px;
+            width: 414px;
+            height: 45px;
+            text-align: left;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            outline: none;
+        }
+        .Accept{
+            margin: 0px 36px 0px 36px;
+            width: 414px;
+            height: 45px;
+            text-align: left;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .Checkbox{
+            width: 20px;
+            height: 20px;
+        }
+        .Term{
+            color: rgb(1, 187, 1);
+            text-decoration: none;
+        }
+        .Privacy{
+            color: rgb(1, 187, 1);
+            text-decoration: none;
+        }
+        .btn{
+            margin: 0px 36px 0px 36px;
+            width: 414px;
+            border: none;
+            height: 45px;
+            background-color: #4CAF50;
+            color: white;
+            display: inline-block;
+            cursor: pointer;
+            text-align: center;
+            font-weight: bold;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+            transition: .5s;
+        }
+        .btn:hover{
+            margin: 0px 36px 0px 36px;
+            width: 414px;
+            border: none;
+            height: 45px;
+            background-color: rgb(12, 156, 12);
+            color: white;
+            display: inline-block;
+            cursor: pointer;
+            text-align: center;
+            font-weight: bold;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+            transition: .5s;
+        }
+    </style>
+    <title>Form</title>
+</head>
+<body>
+    <div class="register">
+        <h1>Register</h1>
+        <p>Create your Account. It's free and only takes a minute</p>
+        <input class="First" type="text" placeholder="First name">
+        <input class="Last" type="text" placeholder="Last name"><br>
+        <input class="Email" type="email" placeholder="Email"><br>
+        <input class="Password" type="password" placeholder="Password"><br>
+        <input type="password" class="Confirm_password" placeholder="Confirm Password"><br>
+        <p class="Accept"><input type="checkbox" class="Checkbox"> I accept the <a href="https://www.google.com" class="Term" target="_blank"><b>Term of Use </b></a>& <a href="https://www.google.com" class="Privacy" target="_blank"><b>Privacy Policy</b></a>.</p><br>
+        <input type="button" class="btn" value="Register Now">
+    </div>
+</body>
+</html>
